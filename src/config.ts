@@ -103,7 +103,7 @@ export const siteConfig = {
        degree: "BA (Hons) in Natural Sciences",
        dateRange: "2023 - present",
        achievements: [
-         "Received USD 250,000 merit-based Jardine scholarship covering tuition, college, travel, and living costs for the undergraduate and integrated master’s degree at University of Cambridge; one out of 10 students from Southeast Asia, mainland China, and Hong Kong",
+         "Received USD 250,000 merit-based Jardine scholarship covering tuition, college, travel, and living costs for the undergraduate and integrated master’s degree; one out of 10 students from Southeast Asia, mainland China, and Hong Kong",
        ],
      },
      {
