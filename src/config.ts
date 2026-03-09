@@ -58,7 +58,7 @@ export const siteConfig = {
       link: "https://extensionkit.io/?ref=devportfolio",
       skills: ["FTIR spectroscopy", "SEM microscopy", "Antimicrobial assays", "Nanomaterials", "Biopolymer extraction"],
     },
-//   ],
+   ],
 //   experience: [
 //     {
 //       company: "Tech Company",
