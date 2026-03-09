@@ -9,8 +9,12 @@ export const siteConfig = {
     github: "https://github.com/frizbeey",
   },
   aboutMe:
-    "Hello! I’m Phoebe, a final year undergraduate at the University of Cambridge, reading Natural Sciences with a specialization in Plant Sciences, under the generous Jardine Foundation Scholarship.  My research interests lie in the intersection of interdisciplinary biological fields, whether it is in -omics, dynamic modelling, or biomaterials engineering, spanning research institutes across Indonesia, the UK, and Switzerland.  I grew up doing competitive debating (NSDC, AHSDC), STEM olympiads (AMC, WMI, CEMC, SMO, SEAMO, APMOPS, CMS, SASMO), and accelerated research (Applied Science Academy). On the side, I teach, play volleyball, run my tiramisu business (when I’m back home), concoct earl grey matcha lattes, and collect tiny figurines. ",
-  skills: ["Python", "R", "HTML", "LaTeX"],
+    `Hello! I’m Phoebe, a final year undergraduate at the University of Cambridge, reading Natural Sciences with a specialization in Plant Sciences, under the generous Jardine Foundation Scholarship.
+     
+     My research interests lie in the intersection of interdisciplinary biological fields, whether it is in -omics, dynamic modelling, or biomaterials engineering, spanning research institutes across Indonesia, the UK, and Switzerland.  I grew up doing competitive debating (NSDC, AHSDC), STEM olympiads (AMC, WMI, CEMC, SMO, SEAMO, APMOPS, CMS, SASMO), and accelerated research (Applied Science Academy). 
+     
+     On the side, I teach, play volleyball, run my tiramisu business (when I’m back home), concoct earl grey matcha lattes, and collect tiny figurines. `,
+  \\ skills: ["Python", "R", "HTML", "LaTeX"],
   projects: [
     {
       name: "Modelling pine wilt disease: vector seasonality, epidemic control, and stochasticity",
