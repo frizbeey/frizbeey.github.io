@@ -48,7 +48,7 @@ export const siteConfig = {
       name: "Portable image analyzer for indicators with OpenCV",
       description:
         "Developed a Raspberry Pi–based computer vision device that automatically reads pH indicator strips using RGB colour analysis, published at ICTIIA 2022.",
-      link: "https://extensionkit.io/?ref=devportfolio",
+      link: "https://ieeexplore.ieee.org/document/9935895/",
       skills: ["Python", "Computer vision", "Image segmentation", "Image processing"],
     },
     {
