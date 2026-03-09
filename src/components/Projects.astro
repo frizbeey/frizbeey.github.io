@@ -59,6 +59,15 @@ const hasProjects = siteConfig.projects && siteConfig.projects.length > 0;
                       )}
 
                       <div class="space-y-4">
+                        {project.image && (
+                          <div class={project.link ? "pr-12 sm:pr-14 md:pr-16" : ""}>
+                            <img
+                              src={project.image}
+                              alt={project.name}
+                              class="w-full h-56 sm:h-64 object-cover rounded-xl border border-gray-200"
+                            />
+                          </div>
+                        )}
                         <div>
                           <span
                             class="text-sm font-mono"
