@@ -108,5 +108,5 @@ export const siteConfig = {
 //         "Specialized in React and Node.js",
 //       ],
 //     },
-//   ],
-// };
+   ],
+ };
