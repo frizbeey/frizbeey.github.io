@@ -91,26 +91,25 @@ export const siteConfig = {
 //       ],
 //     },
 //   ],
-//   education: [
-//     {
-//       school: "University Name",
-//       degree: "Bachelor of Science in Computer Science",
-//       dateRange: "2014 - 2018",
-//       achievements: [
-//         "Graduated Magna Cum Laude with 3.8 GPA",
-//         "Dean's List all semesters",
-//         "President of Computer Science Club",
-//       ],
-//     },
-//     {
-//       school: "Online Platform",
-//       degree: "Full Stack Development Certificate",
-//       dateRange: "2019",
-//       achievements: [
-//         "Completed 500+ hours of coursework",
-//         "Built 10+ portfolio projects",
-//         "Specialized in React and Node.js",
-//       ],
-//     },
+   education: [
+     {
+       school: "University of Cambridge",
+       degree: "BA (Hons) in Natural Sciences",
+       dateRange: "2023 - present",
+       achievements: [
+         "Received USD 250,000 merit-based Jardine scholarship covering tuition, college, travel, and living costs for the undergraduate and integrated master’s degree at University of Cambridge; one out of 10 students from Southeast Asia, mainland China, and Hong Kong",
+       ],
+     },
+     {
+       school: "Sekolah Pelita Harapan Lippo Village",
+       degree: "International Baccalaureate Diploma Programme",
+       dateRange: "2019 - 2023",
+       achievements: [
+        "Awarded IBDP: 44/45, awarded Bilingual Diploma, A in TOK",
+        "Received USD 50,000 merit-based scholarship covering tuition and administration fees for 4 years",
+        "Honors in Mathematics Analysis and Approaches HL, Biology HL, Physics HL, Bahasa Indonesia Language and Literature SL, Theory of Knowledge",
+        "Awarded Student Honor Roll, Scholar Athlete, and Highest Academic Achievement",
+       ],
+     },
    ],
  };
