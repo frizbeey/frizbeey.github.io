@@ -1,92 +1,112 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Phoebe Bintoro",
+  title: "Natural Sciences (Plant Sciences) @ Cambridge",
+  description: "Portfolio website of Phoebe Bintoro",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "pb836@cam.ac.uk",
+    linkedin: "https://linkedin.com/in/phoebebintoro",
+    github: "https://github.com/frizbeey",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "Hello! I’m Phoebe, a final year undergraduate at the University of Cambridge, reading Natural Sciences with a specialization in Plant Sciences, under the generous Jardine Foundation Scholarship.  My research interests lie in the intersection of interdisciplinary biological fields, whether it is in -omics, dynamic modelling, or biomaterials engineering, spanning research institutes across Indonesia, the UK, and Switzerland.  I grew up doing competitive debating (NSDC, AHSDC), STEM olympiads (AMC, WMI, CEMC, SMO, SEAMO, APMOPS, CMS, SASMO), and accelerated research (Applied Science Academy). On the side, I teach, play volleyball, run my tiramisu business (when I’m back home), concoct earl grey matcha lattes, and collect tiny figurines. ",
+  skills: ["Python", "R", "HTML", "LaTeX"],
   projects: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Modelling pine wilt disease: vector seasonality, epidemic control, and stochasticity",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
+        "Developing deterministic and stochastic epidemiological models of pine wilt disease to simulate transmission dynamics, analyse parameter and sensitivity analyses, and evaluate control strategies.",
       link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["Python", "Epidemiological modelling", "Stochastic simulation", "Sensitivity analysis"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "Computer vision-guided algorithm for directed 3D cell network morphogenesis in photodegradable hydrogels",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
+        "Built a computer-vision pipeline that converts microscopy z-stacks into printable 3D microchannel networks, enabling biomimetic reconstruction of osteocyte lacuno-canalicular structures in photodegradable hydrogels.",
       link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+      skills: ["Python", "Computer vision", "Image segmentation", "Image processing", "3D reconstruction", "CLSM", "Biomaterials"],
     },
     {
-      name: "ExtensionKit",
+      name: "Detection, analysis, and evaluation of pathogenic/likely pathogenic novel and noncanonical variants in breast cancer using NGS and bioinformatics approaches",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
+        "Implemented an NGS variant-calling pipeline to identify and analyse pathogenic and noncanonical mutations in breast cancer genes from Illumina sequencing data supported with review of clinical literature.",
       link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
-    },
-  ],
-  experience: [
-    {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
-      bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
-      ],
+      skills: ["Python", "Bioinformatics", "NGS analysis", "Variant calling", "Sequence alignment"],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
-      bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
-      ],
+      name: "Physical and mechanical assessment of kombucha bacteria cellulose as an epidermal drug medium with antibacterial properties of Piper betle and collagen",
+      description:
+        "Investigated kombucha-derived bacterial cellulose as a biomaterial for antimicrobial wound dressings by testing mechanical properties, absorbency, and antibacterial activity with plant extracts and collagen.",
+      link: "https://extensionkit.io/?ref=devportfolio",
+      skills: ["Biomaterials", "Antimicrobial assays", "Microbiology", "Tensile testing"],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
-    },
-  ],
-  education: [
-    {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
+      name: "Portable image analyzer for indicators with OpenCV",
+      description:
+        "Developed a Raspberry Pi–based computer vision device that automatically reads pH indicator strips using RGB colour analysis, published at ICTIIA 2022.",
+      link: "https://extensionkit.io/?ref=devportfolio",
+      skills: ["Python", "Computer vision", "Image segmentation", "Image processing"],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
+      name: "Isolation, characterization, and assessment of chitosan and melanin from the larval, pupal, and imago stages of black soldier fly (Hermetia illucens)",
+      description:
+        "Extracted and characterised melanin–chitosan complexes from different life stages of Hermetia illucens using FTIR, SEM-EDS, and antimicrobial assays to evaluate their bioactive properties.",
+      link: "https://extensionkit.io/?ref=devportfolio",
+      skills: ["FTIR spectroscopy", "SEM microscopy", "Antimicrobial assays", "Nanomaterials", "Biopolymer extraction"],
     },
-  ],
-};
+//   ],
+//   experience: [
+//     {
+//       company: "Tech Company",
+//       title: "Senior Software Engineer",
+//       dateRange: "Jan 2022 - Present",
+//       bullets: [
+//         "Led development of microservices architecture serving 1M+ users",
+//         "Reduced API response times by 40% through optimization",
+//         "Mentored team of 5 junior developers",
+//       ],
+//     },
+//     {
+//       company: "Startup Inc",
+//       title: "Full Stack Developer",
+//       dateRange: "Jun 2020 - Dec 2021",
+//       bullets: [
+//         "Built and launched MVP product from scratch using React and Node.js",
+//         "Implemented CI/CD pipeline reducing deployment time by 60%",
+//         "Collaborated with product team to define technical requirements",
+//       ],
+//     },
+//     {
+//       company: "Digital Agency",
+//       title: "Frontend Developer",
+//       dateRange: "Aug 2018 - May 2020",
+//       bullets: [
+//         "Developed responsive web applications for 20+ clients",
+//         "Improved site performance scores by 35% on average",
+//         "Introduced modern JavaScript frameworks to legacy codebases",
+//       ],
+//     },
+//   ],
+//   education: [
+//     {
+//       school: "University Name",
+//       degree: "Bachelor of Science in Computer Science",
+//       dateRange: "2014 - 2018",
+//       achievements: [
+//         "Graduated Magna Cum Laude with 3.8 GPA",
+//         "Dean's List all semesters",
+//         "President of Computer Science Club",
+//       ],
+//     },
+//     {
+//       school: "Online Platform",
+//       degree: "Full Stack Development Certificate",
+//       dateRange: "2019",
+//       achievements: [
+//         "Completed 500+ hours of coursework",
+//         "Built 10+ portfolio projects",
+//         "Specialized in React and Node.js",
+//       ],
+//     },
+//   ],
+// };
