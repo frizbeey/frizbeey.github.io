@@ -21,6 +21,7 @@ export const siteConfig = {
       description:
         "Developing deterministic and stochastic epidemiological models of pine wilt disease to simulate transmission dynamics, analyse parameter and sensitivity analyses, and evaluate control strategies.",
       link: "https://aidevroundup.com/?ref=devportfolio",
+      image: "/projects/tau_leap_30.png",
       skills: ["Python", "Epidemiological modelling", "Stochastic simulation", "Sensitivity analysis"],
     },
     {
@@ -28,6 +29,7 @@ export const siteConfig = {
       description:
         "Built a computer-vision pipeline that converts microscopy z-stacks into printable 3D microchannel networks, enabling biomimetic reconstruction of osteocyte lacuno-canalicular structures in photodegradable hydrogels.",
       link: "https://fullstackextensions.com/?ref=devportfolio",
+      image: "/projects/pine-wilt.png",
       skills: ["Python", "Computer vision", "Image segmentation", "Image processing", "3D reconstruction", "CLSM", "Biomaterials"],
     },
     {
@@ -35,6 +37,7 @@ export const siteConfig = {
       description:
         "Implemented an NGS variant-calling pipeline to identify and analyse pathogenic and noncanonical mutations in breast cancer genes from Illumina sequencing data supported with review of clinical literature.",
       link: "https://extensionkit.io/?ref=devportfolio",
+      image: "/projects/EGFR_lollipop.png",
       skills: ["Python", "Bioinformatics", "NGS analysis", "Variant calling", "Sequence alignment"],
     },
     {
@@ -42,6 +45,7 @@ export const siteConfig = {
       description:
         "Investigated kombucha-derived bacterial cellulose as a biomaterial for antimicrobial wound dressings by testing mechanical properties, absorbency, and antibacterial activity with plant extracts and collagen.",
       link: "https://extensionkit.io/?ref=devportfolio",
+      image: "/projects/Screen Shot 2022-11-02 at 20.34.42.png",
       skills: ["Biomaterials", "Antimicrobial assays", "Microbiology", "Tensile testing"],
     },
     {
@@ -49,6 +53,7 @@ export const siteConfig = {
       description:
         "Developed a Raspberry Pi–based computer vision device that automatically reads pH indicator strips using RGB colour analysis, published at ICTIIA 2022.",
       link: "https://ieeexplore.ieee.org/document/9935895/",
+      image: "/projects/2022-03-10-182856_647x748_scrot.png",
       skills: ["Python", "Computer vision", "Image segmentation", "Image processing"],
     },
     {
@@ -56,6 +61,7 @@ export const siteConfig = {
       description:
         "Extracted and characterised melanin–chitosan complexes from different life stages of Hermetia illucens using FTIR, SEM-EDS, and antimicrobial assays to evaluate their bioactive properties.",
       link: "https://extensionkit.io/?ref=devportfolio",
+      image: "/projects/2500.Jpg",
       skills: ["FTIR spectroscopy", "SEM microscopy", "Antimicrobial assays", "Nanomaterials", "Biopolymer extraction"],
     },
    ],
