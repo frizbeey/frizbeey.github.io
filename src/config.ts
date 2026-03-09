@@ -20,7 +20,6 @@ export const siteConfig = {
       name: "Modelling pine wilt disease: vector seasonality, epidemic control, and stochasticity",
       description:
         "Developing deterministic and stochastic epidemiological models of pine wilt disease to simulate transmission dynamics, analyse parameter and sensitivity analyses, and evaluate control strategies.",
-      link: "https://aidevroundup.com/?ref=devportfolio",
       image: "/projects/tau_leap_30.png",
       skills: ["Python", "Epidemiological modelling", "Stochastic simulation", "Sensitivity analysis"],
     },
@@ -28,15 +27,13 @@ export const siteConfig = {
       name: "Computer vision-guided algorithm for directed 3D cell network morphogenesis in photodegradable hydrogels",
       description:
         "Built a computer-vision pipeline that converts microscopy z-stacks into printable 3D microchannel networks, enabling biomimetic reconstruction of osteocyte lacuno-canalicular structures in photodegradable hydrogels.",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      image: "/projects/pine-wilt.png",
+      image: "/projects/3D_reconstruction.gif",
       skills: ["Python", "Computer vision", "Image segmentation", "Image processing", "3D reconstruction", "CLSM", "Biomaterials"],
     },
     {
       name: "Detection, analysis, and evaluation of pathogenic/likely pathogenic novel and noncanonical variants in breast cancer using NGS and bioinformatics approaches",
       description:
         "Implemented an NGS variant-calling pipeline to identify and analyse pathogenic and noncanonical mutations in breast cancer genes from Illumina sequencing data supported with review of clinical literature.",
-      link: "https://extensionkit.io/?ref=devportfolio",
       image: "/projects/EGFR_lollipop.png",
       skills: ["Python", "Bioinformatics", "NGS analysis", "Variant calling", "Sequence alignment"],
     },
@@ -44,7 +41,6 @@ export const siteConfig = {
       name: "Physical and mechanical assessment of kombucha bacteria cellulose as an epidermal drug medium with antibacterial properties of Piper betle and collagen",
       description:
         "Investigated kombucha-derived bacterial cellulose as a biomaterial for antimicrobial wound dressings by testing mechanical properties, absorbency, and antibacterial activity with plant extracts and collagen.",
-      link: "https://extensionkit.io/?ref=devportfolio",
       image: "/projects/Screen Shot 2022-11-02 at 20.34.42.png",
       skills: ["Biomaterials", "Antimicrobial assays", "Microbiology", "Tensile testing"],
     },
@@ -60,7 +56,6 @@ export const siteConfig = {
       name: "Isolation, characterization, and assessment of chitosan and melanin from the larval, pupal, and imago stages of black soldier fly (Hermetia illucens)",
       description:
         "Extracted and characterised melanin–chitosan complexes from different life stages of Hermetia illucens using FTIR, SEM-EDS, and antimicrobial assays to evaluate their bioactive properties.",
-      link: "https://extensionkit.io/?ref=devportfolio",
       image: "/projects/2500.Jpg",
       skills: ["FTIR spectroscopy", "SEM microscopy", "Antimicrobial assays", "Nanomaterials", "Biopolymer extraction"],
     },
