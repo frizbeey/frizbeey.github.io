@@ -60,38 +60,40 @@ export const siteConfig = {
       skills: ["FTIR spectroscopy", "SEM microscopy", "Antimicrobial assays", "Nanomaterials", "Biopolymer extraction"],
     },
    ],
-//   experience: [
-//     {
-//       company: "Tech Company",
-//       title: "Senior Software Engineer",
-//       dateRange: "Jan 2022 - Present",
-//       bullets: [
-//         "Led development of microservices architecture serving 1M+ users",
-//         "Reduced API response times by 40% through optimization",
-//         "Mentored team of 5 junior developers",
-//       ],
-//     },
-//     {
-//       company: "Startup Inc",
-//       title: "Full Stack Developer",
-//       dateRange: "Jun 2020 - Dec 2021",
-//       bullets: [
-//         "Built and launched MVP product from scratch using React and Node.js",
-//         "Implemented CI/CD pipeline reducing deployment time by 60%",
-//         "Collaborated with product team to define technical requirements",
-//       ],
-//     },
-//     {
-//       company: "Digital Agency",
-//       title: "Frontend Developer",
-//       dateRange: "Aug 2018 - May 2020",
-//       bullets: [
-//         "Developed responsive web applications for 20+ clients",
-//         "Improved site performance scores by 35% on average",
-//         "Introduced modern JavaScript frameworks to legacy codebases",
-//       ],
-//     },
-//   ],
+  experience: [
+    {
+      company: "Jardine Scholars Council",
+      title: "President (Nov 2025 - Present); Cambridge Vice President, Treasurer (Nov 2024 - 25); Treasurer, Social Media Manager (Nov 2023 - 24)",
+      dateRange: "Nov 2023 - Present",
+      bullets: [
+        "Coordinating outreach, educational, and recreational events with the team for a community of 400+ Jardine Scholars (undergraduates, postgraduates, alumni) in the University of Cambridge and Oxford, and internationally",
+        "Publishing monthly mailing lists to current Scholars and alumni for upcoming events, news, and surveys within the community",
+        "Spearheaded the 3-days 2-nights Windsor Retreat at Cumberland Lodge for personal development and recreation, moderated an alumni talk show in banking, trading, academia, medicine, energy, and law for current Scholars",
+        "Organized the 2024 and 2025 end-of-year formal for 50+ participants across the UK, including transport, food and beverage, and reimbursement fees",
+        "Secured £15,000 in funds from the Jardine Foundation by coordinating and reporting termly fund transfers, cost breakdowns, and reimbursements between 70+ active scholars in both universities, the Jardine Foundation, and third parties",
+        "Managed the community's Instagram and Whatsapp with engaging announcements, event recaps, and profile highlights, reaching 500+ accounts and increasing net engagement by 15% in the first 3 months",
+      ],
+    },
+    {
+      company: "Freelance",
+      title: "Subject and University Admissions Tutor",
+      dateRange: "Oct 2023 - Present",
+      bullets: [
+        "Tutoring 60+ students as a subcontractor for 3 companies in Oxbridge applications (mock interviews, admissions exams, application consultation), multiple school curriculums (GCSE, A Level, IB), and STEM competitions",
+        "Providing performance feedback and homework for students to consolidate material understanding, along with comprehensive evaluation and model answers for revision by tailoring teaching strategies with the students’ needs",
+        "Producing and utilizing self-made learning materials in tandem with widely used textbooks during lessons",
+      ],
+    },
+    {
+      company: "PPI Cambridge (Cambridge University Indonesia Association)",
+      title: "Treasurer",
+      dateRange: "Oct 2024 - Nov 2025",
+      bullets: [
+        "Coordinated and presented for international and national outreach, educational, and recreational events regarding Indonesia and the University of Cambridge",
+        "Managed the organization’s business account and reporting to the Student Union Treasurer with budget proposals, reimbursement forms, expenses tracker, and reimbursement logs for a community of 1300+ Indonesian students and professionals in Cambridge",
+      ],
+    },
+  ],
    education: [
      {
        school: "University of Cambridge",
