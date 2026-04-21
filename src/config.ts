@@ -17,7 +17,7 @@ export const siteConfig = {
   skills: ["Computational biology", "Bioinformatics", "Mathematical modelling", "Computer vision", "Biomaterials"],
   projects: [
     {
-      name: "Modelling pine wilt disease: vector seasonality, epidemic control, and stochasticity",
+      name: "Semi-discrete modelling of pine wilt disease: vector seasonality, parameter sensitivity, and epidemic control",
       description:
         "Developing deterministic and stochastic epidemiological models of pine wilt disease to simulate transmission dynamics, analyse parameter and sensitivity analyses, and evaluate control strategies.",
       image: "/projects/tau_leap_30.png",
