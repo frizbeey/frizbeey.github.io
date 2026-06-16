@@ -19,7 +19,7 @@ export const siteConfig = {
     {
       name: "Semi-discrete modelling of pine wilt disease: vector seasonality, parameter sensitivity, and epidemic control",
       description:
-        "Developing deterministic and stochastic epidemiological models of pine wilt disease to simulate transmission dynamics, analyse parameter and sensitivity analyses, and evaluate control strategies.",
+        "Developed deterministic and stochastic epidemiological models of pine wilt disease to simulate transmission dynamics, analyse parameter and sensitivity analyses, and evaluate control strategies.",
       image: "/projects/tau_leap_30.png",
       skills: ["Python", "Epidemiological modelling", "Stochastic simulation", "Sensitivity analysis"],
     },
