@@ -65,15 +65,23 @@ a:focus-visible{ outline:2px solid var(--pine); outline-offset:3px; border-color
 }
 
 .logo{
-  display:inline-block;
-  border:0;                  
-  margin:0 0 1.25rem;
+  position:fixed;          
+  top:1.75rem;
+  left:1.75rem;
+  z-index:5;
+  border:0;
   line-height:0;
-  opacity:.9;
+  opacity:.85;
   transition:opacity .2s;
 }
 .logo:hover{ opacity:1; }
-.logo img{ width:10rem; height:auto; display:block; }
+.logo img{ width:2.75rem; height:auto; display:block; }
+
+/* below 960px, let it scroll away instead of sitting over the text */
+@media (max-width:59.99rem){
+  .logo{ position:absolute; top:1.25rem; left:1.25rem; }
+  .logo img{ width:10rem; }
+}
    
 .name{
   font-size:1.9rem;
@@ -179,7 +187,11 @@ footer{
 </head>
 
 <body>
-<a class="skip" href="#content">Skip to conten"t</a>
+<a class="skip" href="#content">Skip to content</a>
+
+<a class="logo" href="/" aria-label="Phoebe Bintoro — home">
+  <img src="logo.svg" alt="">
+</a>
 
 <div class="shell">
 
@@ -220,8 +232,8 @@ footer{
     <section id="about">
       <h2>About me</h2>
       <p class="lead">MSci in Systems Biology and BA (Hons) in Natural Sciences (Plant Sciences) @ University of Cambridge</p>
-      <p>I am a student-researcher studying and working between the intersection of experimental and computational biology in humans and plants. Most of my work addresses how computational tools can be integrated into biological systems across scale, and how we can generate the data needed for model parameterisation through robust, quantifiable experimentation. My current research interests are in epidemic and evolution modelling, however I would love to learn more about the different fields!</p>
-      <p>I grew up doing STEM olympiads and competitive debating (AP + BP), alongside <a href="https://scienceacademy.sph.ac.id/">accelerated science research</a> and varsity volleyball. Outside my studies and research, I am heavily involved in the Jardine Scholars Council, an extended student-led body that represents Jardine Scholars in the University of Cambridge and Oxford who are generously sponsored by the <a href="https://www.jardine-foundation.org/">Jardine Foundation Scholarship</a> to pursue higher education in these institutions. I also play volleyball for my College, love concocting new matcha recipes for my in-house matcha station, and teach younger students my passion for science and maths.</p>
+      <p>I am a student-researcher studying and working between the intersection of experimental and computational biology in humans and plants. Most of my work addresses how computational tools can be integrated into biological systems across scale, and how we can generate the data needed for model parameterisation through robust, quantifiable experimentation. My current research interests are in epidemic and evolution modelling, however I would love to learn more about the different interdisciplinary fields in biology!</p>
+      <p>I grew up doing STEM olympiads focused on mathematics and physics, competitive debating (AP + BP), alongside <a href="https://scienceacademy.sph.ac.id/">accelerated science research</a> and varsity volleyball in high school. Outside my studies and research, I am heavily involved in the Jardine Scholars Council, an extended student-led body that represents Jardine Scholars in the University of Cambridge and Oxford who are generously sponsored by the <a href="https://www.jardine-foundation.org/">Jardine Foundation Scholarship</a> to pursue higher education in these institutions. I also play volleyball for my College, love concocting new matcha recipes for my in-house matcha station, and teach younger students my passion for science and maths.</p>
     </section>
 
     <!-- ── EDUCATION ── -->
