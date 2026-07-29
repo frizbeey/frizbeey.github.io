@@ -11,18 +11,16 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,300&display=swap" rel="stylesheet">
 
 <style>
-/* ─────────────────────────────────────────────
-   TOKENS  — change colours & type in one place
-   ───────────────────────────────────────────── */
+
 :root{
   --paper:#FCFCFA;
   --ink:#17191C;
   --muted:#71757B;
   --rule:#E5E4DE;
-  --pine:#2F6B57;          /* single accent */
+  --pine:#2F6B57;         
   --serif:"Newsreader", Georgia, "Times New Roman", serif;
   --mono:"IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
-  --measure:34rem;          /* max line length of body text */
+  --measure:34rem;          
 }
 @media (prefers-color-scheme: dark){
   :root{ --paper:#101214; --ink:#E9E9E5; --muted:#8E9297; --rule:#23262A; --pine:#7FBFA6; }
@@ -50,9 +48,6 @@ a:focus-visible{ outline:2px solid var(--pine); outline-offset:3px; border-color
 .skip{ position:absolute; left:-9999px; }
 .skip:focus{ left:1rem; top:1rem; background:var(--paper); padding:.5rem .75rem; z-index:10; }
 
-/* ─────────────────────────────────────────────
-   LAYOUT — sticky left rail, scrolling content
-   ───────────────────────────────────────────── */
 .shell{
   max-width:64rem;
   margin:0 auto;
@@ -69,6 +64,17 @@ a:focus-visible{ outline:2px solid var(--pine); outline-offset:3px; border-color
   .rail{ position:sticky; top:6rem; }
 }
 
+.logo{
+  display:inline-block;
+  border:0;                  
+  margin:0 0 1.25rem;
+  line-height:0;
+  opacity:.9;
+  transition:opacity .2s;
+}
+.logo:hover{ opacity:1; }
+.logo img{ width:3.5rem; height:auto; display:block; }
+   
 .name{
   font-size:1.9rem;
   font-weight:400;
@@ -111,9 +117,6 @@ nav a[aria-current="true"]::before{ color:var(--pine); }
 .contact a{ border-bottom-color:transparent; }
 .contact a:hover{ border-bottom-color:var(--pine); }
 
-/* ─────────────────────────────────────────────
-   SECTIONS
-   ───────────────────────────────────────────── */
 main{ min-width:0; }
 section{ padding-bottom:4.5rem; }
 section + section{ border-top:1px solid var(--rule); padding-top:3rem; }
@@ -176,12 +179,16 @@ footer{
 </head>
 
 <body>
-<a class="skip" href="#content">Skip to content</a>
+<a class="skip" href="#content">Skip to conten"t</a>
 
 <div class="shell">
 
   <!-- ══ LEFT RAIL ══════════════════════════════════════════ -->
   <header class="rail">
+   <a class="logo" href="/" aria-label="Phoebe Bintoro — home">
+   <img src="logo.jpeg" alt="">
+   </a>
+<h1 class="name">Phoebe<br>Surname</h1>
     <h1 class="name">Phoebe<br>Bintoro</h1>
     <p class="role">Computational Biology</p>
 
@@ -333,7 +340,7 @@ footer{
       <div class="group">
         <h3>Elsewhere</h3>
         <ul>
-          <li>Matcha, tiramisu, and tiny collectible collector</li>
+          <li>Self-proclaimed matcha and tiramisu aficionado, and tiny toys collector</li>
         </ul>
       </div>
     </section>
